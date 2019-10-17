@@ -12,14 +12,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!--<title>{{ config('app.name', 'Start NG') }}</title>-->
-<<<<<<< HEAD
     <title>Start NG - {{ $title ?? '' }}</title>
-=======
-    <!--<title>@if ($title ?? '') Start NG - {{ $title ?? '' }} @else Start NG @endif</title>-->
-    
-    <title>Start NG - {{ $title ?? '' }}</title> 
-
->>>>>>> ec110db14190d1f69f2685a577df4b29846d2cc6
 
     <style>
         body {
@@ -165,13 +158,13 @@
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 my-2">
                         <li><a href="/about">About Us</a></li>
-                        <li><a href="courses.html">Our Course</a></li>
+                        <li><a href="/courses">Our Course</a></li>
                         <li><a href="/hireGrad">Hire a Grad</a></li>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 my-2">
                         <li><a href="curriculum.html">Curriculum</a></li>
-                        <li><a href="blog2.html">Blog</a></li>
-                        <li><a href="blog1.html">Student Stories</a></li>
+                        <li><a href="/blog2">Blog</a></li>
+                        <li><a href="/blog1">Student Stories</a></li>
 
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 my-2">
